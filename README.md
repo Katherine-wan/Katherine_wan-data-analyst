@@ -33,6 +33,22 @@ I am a Data Analyst with a background in operations and reporting, passionate ab
 * **Summary:** Built an automated reporting workflow pairing SQL/VBA pipelines with AI-assisted anomaly detection and executive summary generation to reduce turnaround times.
 
 ---
+### ⚙️ End-to-End Local & Privacy-First AI Analytics Pipeline
+
+I am building a modular, human-in-the-loop analytics suite that automates the full data lifecycle—from raw ingestion to executive reporting—while protecting sensitive business data:
+
+1. **Auto Data Cleaner & Privacy Guardrail (`Python` + `pandas` + `Pydantic`)**
+   * Profiles raw datasets and executes validated `pandas` cleaning transformations with an audit log.
+   * **Privacy Extension:** Automatically detects and anonymizes/masks sensitive fields (PII, proprietary IDs) before routing metadata to external LLM APIs, or runs fully offline via local models.
+2. **Text-to-SQL Database Query Agent (`PostgreSQL` + Local LLM)**
+   * Inspects relational database schemas to translate natural-language business questions into safe, read-only SQL queries (`SELECT`-only guardrails).
+3. **Auto Root-Cause & Anomaly Detection (`Python` + `scipy`/`pandas`)**
+   * Monitors core KPIs for statistical deviations and automatically slices performance across key business dimensions (e.g., category, route, or shift) to isolate primary drivers.
+4. **Local Chart Builder (`Python` + `Ollama`)**
+   * Generates clean, publication-ready visualizations directly from queried data using locally hosted models—ensuring zero raw data leaves the local environment.
+5. **Auto Weekly Executive Report Generator (`Python` + `Ollama`)**
+   * Synthesizes period-over-period KPIs, root-cause findings, and generated charts into a structured Markdown/PDF executive briefing ready for stakeholder review.
+---
 
 ### 🤖 How I Use AI Agents in Analytics
 * **Exploratory Analysis & Prototyping:** Using AI agents to rapidly generate baseline Python/SQL queries and test hypotheses before manual validation.
