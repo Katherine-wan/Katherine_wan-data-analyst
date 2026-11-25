@@ -37,7 +37,7 @@ I am a Data Analyst with a background in operations and reporting, passionate ab
 
 I am building a modular, human-in-the-loop analytics suite that automates the full data lifecycle—from raw ingestion to executive reporting—while protecting sensitive business data:
 
-1. **Auto Data Cleaner & Privacy Guardrail (`Python` + `pandas` + `Pydantic`)**
+1. **Auto Data Cleaner & Privacy Guardrail (`Python` + `pandas` + ` NumPy`+`scikit-learn`+`SciPy`)**
    * Profiles raw datasets and executes validated `pandas` cleaning transformations with an audit log.
    * **Privacy Extension:** Automatically detects and anonymizes/masks sensitive fields (PII, proprietary IDs) before routing metadata to external LLM APIs, or runs fully offline via local models.
 2. **Text-to-SQL Database Query Agent (`PostgreSQL` + Local LLM)**
